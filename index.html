@@ -1,53 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIT DEMO</title>
+    <title>GIT</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <h1>GIT DEMO</h1>
+        <h1>GIT</h1>
     </header>
         
-
+        <!-- Configuracion de GIT-->
         <div>
             <h2>Configuracion de GIT</h2>
-
+            <ul>
+                <li>git --version</li>
+                <li>git config --global user.name "<strong>usuario</strong>"</li>
+                <li>git config --global user.email "<strong>usuario@dominio.com</strong>"</li>
+                <li>git config --list /*comprueba Configuracion*/</li>
+            </ul>
         </div>
+
+        <!-- Ayuda de GIT-->
+
+        <div>
+            <h2>GIT Help</h2>
+            <li>git help config</li>
+            <li>git config --help</li>
+            <li><a href="https://git-scm.com/doc" target="_blank">https://git-scm.com/doc</a></li>
+            
+        </div>
+
+        <!-- Comaandos GIT-->
 
         <div>
             <h2>Comandos GIT</h2>
-            <p>
-                git init    /* Para inicializar GIT en un directorio */
-                <br>
-                git status  /* Chequea el estado del proyecto */
-                <br>
-                git add /* Agrega archivos a Staging Area */
-                <br>
-                git add .
-                <br>
-                git add --all
-                <br>
-                git commit -m "Comentario" /* Descripcion de los cambios */
-            </p>
+            <ul>
+                <li>git init    /* Para inicializar GIT en un directorio */</li>
+                <li>git status  /* Chequea el estado del proyecto */</li>
+                <li>git add /* Agrega archivos a Staging Area */</li>
+                <li>git add .</li>
+                <li>git add --all</li>
+                <li>git commit -m "Comentario" /* Descripcion de los cambios */</li>
+                <li>git log</li>
+                <li>git log --online /*muestra codigos de commits realizados*/</li>
+                
+            </ul>
         </div>
+
+        <!-- Ramas GIT-->
 
         <div>
             <h2>Ramas GIT</h2>
-            <P>
-                git branch /*muestra las ramas */
-                <br>
-                git branch <strong>nuevaRama</strong> /*crear una nueva rama*/
-                <br>
-                git <strong>checkout nuevaRama</strong> /*Canbiar a ramaDos*/
-                <br>
-                
-                
+            
+            <ul>
+                <li>git branch /*muestra las ramas */</li>
+                <li>branch <strong>nuevaRama</strong> /*crear una nueva rama*/</li>
+                <li>git <strong>checkout nuevaRama</strong> /*Canbiar a ramaDos*/</li>
+                <li>git merge /*fusionar. primero me debo mover a la rama principal (donde quiero fusionar el cambio)*/</li>
+                <li>git merge <strong>RamaXXX</strong></li>
+                <li>git bhanch -D <strong>nombreRama</strong> /*Borrar Rama*/</li>
 
-            </P>
+            </ul>
         </div>
 
     <footer>
