@@ -4,5 +4,11 @@ git status  /* Chequea el estado del proyecto */
 
 git add /* Agrega archivos a Staging Area */
 
+git add .
+
+git add --all
+
 git commit -m "Comentario" /* Descripcion de los cambios */
+
+
 
