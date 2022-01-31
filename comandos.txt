@@ -10,5 +10,7 @@ git add --all
 
 git commit -m "Comentario" /* Descripcion de los cambios */
 
+-----------------------------------------------------------------
+
 
 

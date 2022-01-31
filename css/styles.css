@@ -6,3 +6,20 @@
 }
 
 /* ESTILOS GENERALES */
+
+body {
+    background-color: beige;
+}
+
+header {
+    padding: 40px;
+}
+
+h2 {
+    padding: 40px;
+}
+
+div {
+    padding: 40px;
+    background-color: whitesmoke;
+}
