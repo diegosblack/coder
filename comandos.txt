@@ -1,0 +1,8 @@
+git init    /* Para inicializar GIT en un directorio */
+
+git status  /* Chequea el estado del proyecto */
+
+git add /* Agrega archivos a Staging Area */
+
+git commit -m "Comentario" /* Descripcion de los cambios */
+
