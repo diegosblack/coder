@@ -9,6 +9,7 @@
 
 body {
     background-color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -16,10 +17,22 @@ header {
 }
 
 h2 {
-    padding: 40px;
+    padding-bottom: 30px;
 }
 
 div {
     padding: 40px;
     background-color: whitesmoke;
+    margin-bottom: 20PX;
+    border: black solid 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+footer {
+    color: blanchedalmond;
+    background-color: black;
+    padding: 40px;
 }
